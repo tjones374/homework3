@@ -1,9 +1,8 @@
-//
 var length = prompt("How long do you want your password to be?");
 console.log(length);
 var lowerCase = confirm("Do you want to include lowercase letters?");
 console.log(lowerCase);
-var upperCase = confirm("Do you want to include upperCase letters?");
+var upperCase = confirm("Do you want to include uppercase letters?");
 console.log(upperCase);
 var numbers = confirm("Do you want to include numbers?");
 console.log(numbers);
@@ -73,6 +72,7 @@ console.log(getRandomNumber);
 
 var getRandomSymbol = ["!", "@", "#", "$", "%", "&", "*"];
 console.log(getRandomSymbol);
+10;
 
 var requestedCharacters = [];
 if (lowerCase === true) {
