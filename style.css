@@ -39,5 +39,6 @@ button {
 
 #gray {
 	background-color: #666666;
+	margin-left: -15px;
 	position: fixed;
 }

@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 	//Password must be between 8 and 128 characters
 	do {
-		var lengthPass = prompt('Please Eenter a number between 8 and 128');
+		var lengthPass = prompt('Please Enter a number between 8 and 128');
 		if (lengthPass > 7 && lengthPass < 129) {
 			alert('You chose ' + lengthPass + ' characters.');
 		} else {
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 	do {
 		alert(
-			'Please choose one or more of the following to include in your password:\nSpecial characters\nNumbers\nLowercase letters\nUppercase letters'
+			'Please choose one or all of the following items to include in your password:\nSpecial characters\nNumbers\nLowercase letters\nUppercase letters'
 		);
 		var specialChar = confirm(
 			'Would you like to include special characters in your password?'
