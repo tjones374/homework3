@@ -14,26 +14,27 @@
 		<title>Password Generator</title>
 	</head>
 	<body>
+		<h1>Password Generator</h1>
 		<div class="container">
-			<div class="row">
-				<div class="col-sm">
-					<h1 class="title">Password Generator</h1>
-					<div class="content-box">
-						<h2 class="you-generate">Generate a Password</h2>
-						<h3 class="your-secure">Your Secure Password</h3>
-						<hr />
-						<p class="element-line2"></p>
-						<div class="inner-border"></div>
-						<div class="row">
-							<div class="col-sm">
-								<button type="button" class="btn btn-primary btn-lg">
-									Generate Password
-								</button>
-								<button type="button" class="btn btn-secondary btn-lg">
-									Copy to Clipboard
-								</button>
-							</div>
-						</div>
+			<div id="password">
+				<h2>Generate a Password</h2>
+				<hr />
+				<div id="innerBox">
+					<label placeholder="Your Secure Password"></label>
+				</div>
+				<hr />
+				<div class="row">
+					<div class="col-2-md">
+						<button
+							type="button"
+							class="btn btn-primary btn-lg generate"
+							id="red"
+						>
+							Generate Password
+						</button>
+						<button type="button" class="btn btn-secondary btn-lg" id="gray">
+							Copy to Clipboard
+						</button>
 					</div>
 				</div>
 			</div>
